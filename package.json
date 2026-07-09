@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/acg-mapper-api",
+  "version": "1.0.0",
+  "description": "acg-mapper HTTP API · Express wrapper around @ai-native-solutions/acg-mapper-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["acg-mapper", "api", "http", "express", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/acg-mapper-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "@ai-native-solutions/acg-mapper-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
